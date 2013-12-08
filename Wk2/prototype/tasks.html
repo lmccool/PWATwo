@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Tempus Grabbit: Project Management</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="body">
+	<header id="header2">
+		<img src="images/logo.png" id="headerLogo" alt="Header Logo"> 
+		
+			<nav id="topNav">
+				<ul>
+					<li><a href="index.html">Home  |</a></li>
+					<li><a href="projects.html">  My Projects  |</a></li>
+					<li><a href="tasks.html">  My Tasks</a></li>
+				</ul>
+			</nav>
+	</header>
+
+		<article>
+			<section class="title">
+				<h1 id="projectsTitle">Tasks</h1>
+				<button>Create New Task</button>			
+			</section> <!-- end of section 1 -->
+	
+	<section class="open">
+				<div class="taskImg">
+					<img src="images/yellow_color.png" alt="Status" class="status"/>
+				</div>
+				<div class="projectInfo">
+					<h2 class="projectName" id="openProjectName">Project Name</h2>
+					<p class="projectDescription">Project Description</p>
+				</div>
+				<p><div class="dueInfo"></p>
+					<p class="due">Due: MM/DD/YYYY</p>
+				</div>
+
+				<div class="projectTaskInfo">
+					<div class="taskTable">
+						<h2>Tasks</h2> <hr />
+						<table id="tasksTable">
+							<tr class="even">
+								<td class="tdIcon"><img src="images/blue_color_icon.png" alt="urgent" /></td>
+								<td>Task 1</td>
+								<td></td>
+								<td class="dueDate">Due: MM/DD/YYYY</td>
+							</tr>
+							<tr>
+								<td class="tdIcon"><img src="images/yellow_color_icon.png" alt="urgent" /></td>
+								<td>Task 2</td>
+								<td></td>
+								<td class="dueDate">Due: MM/DD/YYYY</td>
+							</tr>
+							<tr class="even">
+								<td class="tdIcon"><img src="images/pink_color_icon.png" alt="urgent" /></td>
+								<td>Task 3</td>
+								<td></td>
+								<td class="dueDate">Due: MM/DD/YYYY</td>
+							</tr>
+
+						</table>
+
+					</div>
+
+				</div>
+			
+			</section> <!-- end of section 3 -->
+	
+	
+					<div class="projectAddTask">
+					<h1 id="npTitle">Add Tasks</h1>
+					<form>
+						<div id="newTaskInput">
+						<p id="inputText">Task Name: <input type="text" name="newTask" size="15" maxlength="30" placeholder="New Task"/></p>
+						</div>
+						<div class="dueInput">
+						<p id="inputText">Date Due: <input type="text" name="dueDate" size="15" maxlength="30" placeholder="MM/DD/YYYY"/></p> </div>
+						<div id="taskDescripInput">
+						<p id="inputText">Task Description: <input type="text" name="taskDescription" size="15" maxlength="140" placeholder="Task Description"/></p>
+						
+					<p id="inputText">Task Color: <select class="selectColorDiv">
+ 							<option value="blue">Blue</option>
+  							<option value="pink">Pink</option>
+  							<option value="yellow">Yellow</option>>
+						</select> </p>
+
+					</form>
+
+				</div>
+	
+	
+		</article> <!-- end of article -->	
+   	<footer> 
+			<nav id="footerNav">
+				<ul>
+					<li><a href="index.html">Home</a></li>  |
+					<li><a href="projects.html">  My Projects</a></li> |
+					<li><a href="tasks.html">  My Tasks</a></li>
+				</ul>
+			</nav>
+	</footer>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Tempus Grabbit: Project Management</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="body">
+	<header id="header2">
+		<img src="images/logo.png" id="headerLogo" alt="Header Logo"> 
+		
+			<nav id="topNav">
+				<ul>
+					<li><a href="index.html">Home  |</a></li>
+					<li><a href="projects.html">  My Projects  |</a></li>
+					<li><a href="tasks.html">  My Tasks</a></li>
+				</ul>
+			</nav>
+	</header>
+
+		<article>
+			<section class="title">
+				<h1 id="projectsTitle">Projects</h1>
+				<button>Create New Project</button>			
+			</section> <!-- end of section 1 -->
+		</article>
+		<article>
+			<section class="collapsed">
+				<div class="status-div"><img src="images/blue_color.png" alt="Status" class="status"/></div>
+				<div class="projectInfo"><h2 class="projectName" id="projectInfoTitle">Project Name</h2>
+					<p class="project-description">Project Description</p></div>
+				<div class="dueInfo"><p class="due">Due: MM/DD/YYYY</p></div>
+				<div class="arrowButton"><img src="images/arrowButton.png" alt="down" ></div>
+			
+			</section> <!-- end of section 2 -->
+
+			<section class="open">
+				<div class="taskImg">
+					<img src="images/yellow_color.png" alt="Status" class="status"/>
+				</div>
+				<div class="projectInfo">
+					<h2 class="projectName" id="openProjectName">Project Name</h2>
+					<p class="project-description">Project Description</p>
+				</div>
+				<div class="dueInfo">
+					<p class="due">Due: MM/DD/YYYY</p>
+				</div>
+				<div class="arrowButton">
+					<img src="images/arrowButton.png" alt="up">
+				</div>
+
+				<div class="projectTaskInfo">
+					<div class="taskTable">
+						<h2>Tasks</h2> <hr />
+						<table id="tasksTable">
+							<tr class="even">
+								<td class="tdIcon"><img src="images/blue_color_icon.png" alt="urgent" /></td>
+								<td>Task 1</td>
+								<td></td>
+								<td class="dueDate">Due: MM/DD/YYYY</td>
+							</tr>
+							<tr>
+								<td class="tdIcon"><img src="images/yellow_color_icon.png" alt="urgent" /></td>
+								<td>Task 2</td>
+								<td></td>
+								<td class="dueDate">Due: MM/DD/YYYY</td>
+							</tr>
+							<tr class="even">
+								<td class="tdIcon"><img src="images/pink_color_icon.png" alt="urgent" /></td>
+								<td>Task 3</td>
+								<td></td>
+								<td class="dueDate">Due: MM/DD/YYYY</td>
+							</tr>
+
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td class="view-edit"><a href="#">View/Edit Tasks</a></td>
+							</tr>
+
+						</table>
+
+					</div>
+					<div class="edit-delete">
+						<p><a href="#">Edit</a> <a href="#">Delete</a></p>
+					</div>
+
+				</div>
+			
+			</section> <!-- end of section 3 -->
+
+			<section class="collapsed">
+				<div class="status-div"><img src="images/pink_color.png" alt="Status" class="status"/></div>
+				<div class="projectInfo"><h2 class="projectName" id="projectInfoTitle">Project Name</h2>
+					<p class="project-description">Project Description</p></div>
+				<div class="dueInfo"><p class="due">Due: MM/DD/YYYY</p></div>
+				<div class="arrowButton"><img src="images/arrowButton.png" alt="down"></div>
+			
+			</section> <!-- end of section 4 -->		
+	
+		</article> <!-- end of article -->	
+   	<footer> 
+			<nav id="footerNav">
+				<ul>
+					<li><a href="index.html">Home</a></li>  |
+					<li><a href="projects.html">  My Projects</a></li> |
+					<li><a href="tasks.html">  My Tasks</a></li>
+				</ul>
+			</nav>
+	</footer>
+</div>
+</body>
+</html>
+

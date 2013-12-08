@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Tempus Grabbit: Project Management</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="body">
+	<header id="header2">
+		<img src="images/logo.png" id="headerLogo" alt="Header Logo"> 
+		
+			<nav id="topNav">
+				<ul>
+					<li><a href="index.html">Home  |</a></li>
+					<li><a href="projects.html">  My Projects  |</a></li>
+					<li><a href="tasks.html">  My Tasks</a></li>
+				</ul>
+			</nav>
+	</header>
+		<article>
+			<section class="title">
+				<h1 id="projectsTitle">Create New Project</h1>
+				<button>Save Project</button>			
+			</section> <!-- end of section 1 -->
+		</article>
+		
+		<article id="createNewProject">
+			<h1 id="npTitle">New Project</h1>
+			<section class="newProjectInfo">
+				<div class="newProjectForm">
+					<form>
+						<div id="newProjectInput">
+						<p id="inputText">Project Name:</p>
+						<p id="inputBox"><input type="text" name="newProject" size="15" maxlength="30" placeholder="New Project"/></p>
+						</div>
+						<div class="dueInput">
+						<p id="inputText">Date Due: </p>
+						<p id="inputBox"><input type="text" name="dueDate" size="15" maxlength="30" placeholder="MM/DD/YYYY"/></p> 
+						</div>
+						<div id="projectDescripInput">
+						<p id="inputText">Project Description:</p>
+						<p id="inputBox"><input type="text" id="projectDescriptionBox" name="projectDescription" size="15" maxlength="140" placeholder="Project Description"/></p>
+						<p id="inputText"> Project Importance:</p>
+						<p id="inputBox"> <select class="selectStatusDiv">
+ 							<option value="urgent">Urgent</option>
+  							<option value="active">Active</option>
+  							<option value="complete">Complete</option>
+ 							<option value="delayed">Delayed</option>
+ 							</p>
+						</select>
+						</div>
+
+					</form>
+
+				</div>
+
+				<div class="projectAddTask">
+					<h1 id="npTitle">Add Tasks</h1>
+					<form>
+						<div id="newTaskInput">
+						<p id="inputText">Task Name: <input type="text" name="newTask" size="15" maxlength="30" placeholder="New Task"/></p>
+						</div>
+						<div class="dueInput">
+						<p id="inputText">Date Due: <input type="text" name="dueDate" size="15" maxlength="30" placeholder="MM/DD/YYYY"/></p> </div>
+						<div id="taskDescripInput">
+						<p id="inputText">Task Description: <input type="text" name="taskDescription" size="15" maxlength="140" placeholder="Task Description"/></p>
+						
+					<p id="inputText">Task Color: <select class="selectColorDiv">
+ 							<option value="blue">Blue</option>
+  							<option value="pink">Pink</option>
+  							<option value="yellow">Yellow</option>>
+						</select> </p>
+
+					</form>
+
+				</div>
+
+				<p id="addTaskLink"><a href="#">Add another task</a></p>
+			
+			</section> <!-- end of section 2 -->
+	
+		</article> <!-- end of article -->		
+   	<footer> 
+			<nav id="footerNav">
+				<ul>
+					<li><a href="index.html">Home</a></li>  |
+					<li><a href="projects.html">  My Projects</a></li> |
+					<li><a href="tasks.html">  My Tasks</a></li>
+				</ul>
+			</nav>
+	</footer>
+</div>
+</body>
+</html>
+
