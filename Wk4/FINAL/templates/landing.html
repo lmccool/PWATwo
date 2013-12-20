@@ -1,0 +1,77 @@
+<!-- 
+	Put the skeleton HTML for your Landing page here
+	DO NOT include <html>, <head>, or <body> tags
+	
+	(don't remove the parent div)
+-->
+
+<div>
+	<script type="text/template" id="template_landing">
+<div class="body">
+	<header id="header2">
+		<img src="images/logo.png" id="headerLogo" alt="Header Logo"> 
+		
+			<nav id="topNav">
+				<ul>
+					<li><a href="index.html">Home  |</a></li>
+					<li><a href="projects.html">  My Projects  |</a></li>
+					<li><a href="tasks.html">  My Tasks  |</a></li>
+					<li><a href="#">  Log Out</a></li>
+				</ul>
+			</nav>
+	</header>
+		
+		<div id="formWrapper" class="formWrapper">
+	
+<form class="login active">
+    <h3>Login</h3>
+   	 	<div>
+        	<label>Username:</label>
+       		 <input type="text" />
+    	</div>
+   		 <div>
+      		  <label>Password:</label>
+      		  <input type="password" />
+   		 </div>
+   		 <div class="bottom">
+        		<input type="submit" id="loginButton" value="Login"></input>
+       	 		<p>You don't have an account yet?<a href="register.html" rel="register" class="linkform">Register here!</a></p>
+        	<div class="clear"></div>
+   	 </div>
+	</form>
+</div>
+		
+		
+<article>
+
+			<section class="register">
+			<img src="images/sign_up_now.png" id="signUpNow" alt="Sign Up Now"> 
+				<form action="http://www.example.com/subscribe.php" method="get" id="registerForm"> 
+					<p><input id="SignInInput" type="text" name="first-name" size="15" maxlength="30" placeholder="First Name" required="required"/></p>
+					<p><input id="SignInInput"  type="text" name="last-name" size="15" maxlength="30" placeholder="Last Name" required="required"/></p>
+					<p><input id="SignInInput"  type="text" name="username" size="15" maxlength="30" placeholder="Email" required="required"/></p>
+					<p><input id="SignInInput"  type="password" name="password" size="15" maxlength="30" placeholder="Password" required="required" /></p>
+			
+					<p><input class="checkboxes" type="checkbox" name="service" value="terms" required="required"/>I agree to <a href="#">Terms of Use</a></p>
+			
+					<input id="signUpButton" type="submit" name="sign-up" value="Sign Me Up" /> 
+									
+				</form>
+					
+			</section> <!-- end of section 1 -->
+		
+		
+	
+		</article> <!-- end of article -->		
+   	<footer> 
+			<nav id="footerNav">
+				<ul>
+					<li><a href="index.html">Home</a></li>  |
+					<li><a href="projects.html">My Projects</a></li> |
+					<li><a href="tasks.html">My Tasks</a></li>
+				</ul>
+			</nav>
+	</footer>
+</div>
+	</script>
+</div>
